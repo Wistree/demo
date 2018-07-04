@@ -1,0 +1,176 @@
+html,
+body,
+header,
+main,
+.jarallax {
+  height: 100%;
+}
+
+
+/*.jarallax {
+  background: url("../img/lonely-dog.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+/*main {
+  background: #fff;
+}*/
+
+#home {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  z-index: 0;
+  background-attachment: scroll;
+}
+
+#jarallax-container-0 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  z-index: -100;
+}
+
+.streak.streak-photo {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.streak.streak-md {
+  height: 400px;
+}
+
+.testimonial-carousel .testimonial {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.testimonial-carousel .testimonial .avatar img {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    max-width: 170px;
+}
+
+
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+
+.home-cover {
+  padding-top: 350px;
+}
+
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+[type=submit], [type=reset], button, html [type=button] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: red!important;
+    color: #fff!important;
+}
+
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+    z-index: 1;
+}
+
+.btn-floating, .card-wrapper .card-up img, .product-table td, .timetable td, .timetable th, .waves-input-wrapper, table.table.btn-table td {
+    vertical-align: middle;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #343a40!important;
+    border-color: #6c757d;
+}
+
+.form-header {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    color: #fff;
+    text-align: center;
+    margin-top: -3.13rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    -webkit-border-radius: .125rem;
+    border-radius: .125rem;
+}
+
+.dark-color {
+  color: #fff;
+  text-align: center;
+  background-color: #4a4947;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+    color: #fff!important;
+}
+
+.btn-tw {
+    background-color: #55acee;
+    color: #fff!important;
+}
+
+.btn-gplus {
+    background-color: #dd4b39;
+    color: #fff!important;
+}
+
+.btn-dribbble {
+    background-color: #ec4a89;
+    color: #fff!important;
+}
+
+.tet-case {
+  font-size: 11px;
+}
